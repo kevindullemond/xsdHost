@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Person>
+    <Name>Person-No-Type</Name>
+    <Address>A4</Address>
+  </Person>
+  <Person xsi:type="PersonType">
+    <Name>Person</Name>
+    <Address>A4</Address>
+  </Person>
+  <Person xsi:type="CustomerType">
+    <Name>Customer</Name>
+    <Address>A13</Address>
+    <Company>Highway</Company>
+  </Person>
+  <Person xsi:type="EmployeeType">
+    <Name>Employee</Name>
+    <Address>A27</Address>
+    <Salary>1</Salary>
+  </Person>
+</root>
